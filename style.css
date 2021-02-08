@@ -1,0 +1,16 @@
+body{
+  background-color: white;
+  margin: 0;
+}
+
+h1{
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+  color:black;
+  margin-top:80px;
+
+  padding-bottom: 20px;
+
+  border-bottom: 3px solid gray;
+}
