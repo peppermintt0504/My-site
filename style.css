@@ -20,14 +20,14 @@ body{
 }
 .title{
   background-color: lightblue;
-  font-size: 45px;
-  font-weight: bold;
+  font-size: 40px;
+  /*font-weight: bold;*/
   text-align: center;
 
-  color:black;
+  color:white;
 
   margin:0px;
-  padding-top: 50px;
+  padding-top: 85px;
 
 }
 .subtitle{
@@ -36,8 +36,20 @@ body{
   text-align: center;
   border-bottom: 3px solid lightgray;
 
+  color: navy;
+
   padding-bottom: 20px;
   padding-top: 0px;
 
   margin: 0px;
+}
+
+#cols{
+  display : grid;
+  grid-template-columns: 1fr 3fr;
+  border:
+}
+#cols li{
+
+  
 }
