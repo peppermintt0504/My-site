@@ -4,31 +4,40 @@ body{
 }
 
 #sub{
-  border-bottom: 3px solid gray;
-  padding: 10px;
-  padding-bottom: 13px;
+  border-bottom: 3px solid lightgray;
+  padding: 100px;
+  padding-top: 3px;
+  padding-bottom: 6px;
+
 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  background-color: gray;
+  background-color: lightgray;
 }
 #sub a{
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
 }
-h1{
+.title{
+  background-color: lightblue;
   font-size: 45px;
   font-weight: bold;
   text-align: center;
 
-
-
   color:black;
 
-  margin-top:80px;
-  margin-bottom: 0px;
+  margin:0px;
+  padding-top: 50px;
+
+}
+.subtitle{
+  background-color: lightblue;
+  font-size: 20px;
+  text-align: center;
+  border-bottom: 3px solid lightgray;
 
   padding-bottom: 20px;
+  padding-top: 0px;
 
-  border-bottom: 3px solid gray;
+  margin: 0px;
 }
